@@ -82,12 +82,12 @@ $(window).load(function(){
 
 });
 
-(function($){
-    $('.featured').isotope({
-    itemSelector: '.featured-items',
-    layoutMode: 'masonry'
-    });
-})(jQuery);
+// (function($){
+//     $('.featured').isotope({
+//     itemSelector: '.featured-items',
+//     layoutMode: 'masonry'
+//     });
+// })(jQuery);
 
 /*==============================
     CLIENT FEEDBACK
@@ -311,5 +311,5 @@ $('#feedback').carousel({
         offset: 100
       }
     );
-    wow.init();
+    // wow.init();
 })(jQuery);
